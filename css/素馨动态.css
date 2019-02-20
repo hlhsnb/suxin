@@ -1,0 +1,13 @@
+.nav-item a{
+    color: #2a333c;
+    font-size: 14px;
+}
+.nav-item:nth-child(2) a{
+    color: #2a333c;
+}
+.nav-item:nth-child(2) a:hover{
+    color: #16b0dc;
+}
+.nav-item:nth-child(3) a{
+    color: #16b0dc;
+}

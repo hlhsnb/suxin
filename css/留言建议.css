@@ -1,0 +1,162 @@
+textarea{
+    list-style: none;
+}
+input{
+    list-style: none;
+}
+.nav-item a{
+    color: #2a333c;
+    font-size: 14px;
+}
+.nav-item:nth-child(2) a{
+    color: #2a333c;
+}
+.nav-item:nth-child(2) a:hover{
+    color: #16b0dc;
+}
+.nav-item:nth-child(6) a{
+    color: #16b0dc;
+}
+/*用户留言开始*/
+.content-icon{
+    width:46px;
+    height:53px;
+    /*background: red;*/
+    /*line-height: 53px;*/
+}
+.content-icon i{
+    display: block;
+    width:100%;
+    height:100%;
+    font-size: 36px;
+    color: #a3afb7;
+}
+.content-body{
+    width: 672px;
+    height: auto;
+    /*background: red;*/
+}
+.content-body h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.content-body span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+}
+.content-body span:last-child{
+    font-size: 75%;
+    font-weight: 300;
+    color: #a3afb7;
+    font-family: SanFranciscoDisplay;
+    line-height: 1;
+}
+.content-body p{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 11px;
+}
+.content-well{
+    width: 100%;
+    min-height: 20px;
+    padding: 20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    font-size: 14px;
+}
+/*用户留言结束*/
+
+
+/*修改部分*/
+.content{
+    width: 780px;
+}
+.content-item {
+    padding: 10px 0;
+    margin: 0;
+}
+.news-right{
+    width: 360px;
+    height: 464px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.input-box{
+    width: 100%;
+    display: flex;
+}
+.input-box input{
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.input-box input::placeholder{
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4);
+}
+.input-box:nth-child(4) input{
+    height: 120px;
+}
+.input-box:nth-child(5) input{
+    width: 189px;
+}
+.input-box span {
+    width: 111px;
+    height: 36px;
+    background: #eeeeee;
+    padding: 6px 15px;
+    font-weight: 300;
+    padding: 6px 15px;
+    border:1px solid #e4eaec;
+    border-left: 0;
+}
+.news-btn {
+    width:100%;
+    height: 36px;
+    background: red;
+}
+.news-btn button{
+    width:100%;
+    height: 100%;
+    padding: 6px 15px;
+    color: #fff;
+    background-color: #a2caee;
+    border-color: #a2caee;
+    border: 0;
+}
+.input-box textarea{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.input-box textarea::placeholder{
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4);
+}

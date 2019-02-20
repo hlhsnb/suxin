@@ -1,0 +1,295 @@
+html,body{
+    box-sizing: border-box;
+    background: #eeeeee;
+    color: #2a333c;
+    list-style: none;
+}
+a{
+    list-style: none;
+    color: #2a333c;
+    font-size: 15px;
+}
+
+/*导航栏开始*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+.nav-item a{
+    color: #2a333c;
+    font-size: 14px;
+}
+.nav-item:nth-child(2) a{
+    color: #16b0dc;
+}
+/*导航栏结束*/
+
+/*花艺开始*/
+.big-font{
+    width:100%;
+    height: 200px;
+    background: #eeeeee;
+    padding-top: 80px;
+}
+.big-font h1{
+    height: 100%;
+    color: #F67A82;
+    line-height: 120px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: none;
+}
+.news-box{
+    width:100%;
+    height: auto;
+    background: #eeeeee;
+    padding: 30px 0;
+    /*margin-bottom: 30px;*/
+    box-sizing: border-box;
+}
+.container{
+    width:1170px;
+    height:auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    /*background: red;*/
+    box-sizing: border-box;
+}
+.news-content{
+    width:1170px;
+    height:100%;
+    margin: 0 -15px;
+    /*background: #ff6700;*/
+    display: flex;
+    box-sizing: border-box;
+}
+.content{
+    width:877.5px;
+    height: 100%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.content-list {
+    width: 100%;
+    height: 100%;
+    /*background: black;*/
+}
+.content-item {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 30px;
+    /*background: red;*/
+    display: flex;
+}
+.content-img{
+    width:160px;
+    height:160px;
+    margin-right: 20px;
+}
+.content-img img{
+    width:100%;
+    height:160px;
+    line-height: 160px;
+}
+.content-font{
+    width:637px;
+    height:100%;
+    /*background: blue;*/
+}
+.content-font h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #37474f;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.content-font p{
+    line-height: 1.57;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.info{
+    margin: 0;
+}
+.info span{
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news-right{
+    width:292.5px;
+    height:354px;
+    background: #fff;
+    margin-left: 30px;
+    padding: 20px;
+}
+.news-search {
+    width: 222px;
+    height: 36px;
+    /*background: blue;*/
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+    /*border-radius: 200px;*/
+}
+.search{
+    border-radius: 200px;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    /*background-color: #fff;*/
+    background-image: none;
+    border: 1px solid #e4eaec;
+    outline: none;
+}
+.search:focus{          /*点击时效果*/
+    border: 1px solid #16b0dc;
+}
+.search::placeholder {
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+    font-family: SanFranciscoDisplay-Bold;
+}
+.btn {
+    width: 40px;
+    height: 100%;
+    background: none;
+    border: none;
+    border-radius: 0 200px 200px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 10px;
+}
+.btn i{
+    color: #000;
+}
+.news-recommend {
+    width: 100%;
+    height: 203px;
+    /*background: red;*/
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+.news-recommend h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+}
+.recommend-list {
+    width: 100%;
+    height: 130px;
+    /*background: red;*/
+    margin-top: 10px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border:1px solid #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommend-item{
+    width:100%;
+    height:44px;
+    /*background: red;*/
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+.recommend-item a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+}
+.recommend-all {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 11px;
+    padding: 0;
+}
+.recommend-all li{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 10px;
+}
+.recommend-all a{
+    font-size: 16px;
+    color: #2a333c;
+}
+.bottom-box{
+    width:100%;
+    height: 39px;
+    /*background: red;*/
+}
+.bottom {
+    width: 270px;
+    height: 100%;
+    /*background: #76838f;*/
+    margin: 0 auto;
+    border: 1px solid #f0f2f5;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.bottom span{
+    width: 74px;
+    height: 100%;
+    border-right: 1px solid #e4eaec;
+    padding: 9px 15px;
+    /*background: #fff;*/
+    color: #ccd5db;
+    cursor: default;
+}
+.bottom a{
+    width: 38.55px;
+    height: 100%;
+    border-right: 1px solid #e4eaec;
+    padding: 9px 15px;
+    /*background: #fff;*/
+    text-align: center;
+    color: #76838f;
+    display: flex;
+    align-items: center;
+}
+.bottom a:nth-child(2){
+    color: #fff;
+    background: #f86867;
+    border-color: #f86867;
+}
+.bottom a:last-child{
+    width: auto;
+    height: 100%;
+    border: 0;
+}
+/*花艺结束*/
+
+.links {
+    width: 100%;
+    height: 20px;
+    background: #fff;
+}
+
+
