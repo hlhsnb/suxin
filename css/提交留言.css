@@ -1,0 +1,157 @@
+.column{
+    width:100%;
+    height: 54px;
+    background: #F86867;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #f0f2f5;
+    border-top-color: rgb(255,255,255);
+    border-bottom-color: rgb(240,242,245);
+}
+.column-box{
+    height: 100%;
+    margin: 0 auto;
+}
+.column-list{
+    width: auto;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-item {
+}
+.column-item a{
+    display: block;
+    font-size: 16px;
+    padding: 14px;
+    color: #fff;
+}
+.news-content{
+    margin: 0;
+}
+.news-box{
+    padding: 0;
+    background: #fff;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+    /*justify-content: left;*/
+}
+.news-size {
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    /*margin-bottom: 22px;*/
+}
+.news-size h2{
+    width:100%;
+    height: 36px;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+}
+.news-size a {
+    display: block;
+    width: 100%;
+    height: 19px;
+    text-align: left;
+    margin-bottom: 22px;
+    color: #62a8ea;
+    font-size: 14px;
+}
+.news-big {
+    width: 100%;
+    height: auto;
+    /*background: red;*/
+}
+.news-big h1 {
+    width: 100%;
+    height: 43px;
+    font-size: 36px;
+    color: #37474f;
+    font-weight: 400;
+    margin: 0.67em 0;
+    line-height: 43px;
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+.news-big a {
+    width: auto;
+    height: 100%;
+    font-size: 14px;
+    color: #62a8ea;
+}
+.news-big a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.news-right{
+    margin:0;
+    padding: 0;
+    display: block;
+}
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+.input-box p{
+    width: 100%;
+    font-size: 14px;
+}
+.input-box input {
+    display: block;
+    width: 143px;
+    heigt:28px;
+    border-color: #76838f;
+    margin: 0;
+    padding: 1px 0;
+    border-radius: 0;
+}
+.input-box textarea {
+    width: 143px;
+    heigt:28px;
+    border-color: #76838f;
+    margin: 0;
+    padding: 1px 0;
+    border-radius: 0;
+}
+#in5{
+    width: 145px;
+    height: 28px;
+}
+.input-box span{
+    display: block;
+    height: 28px;
+    background: none;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+.input-box span img{
+    margin-top: 4px;
+    height: 20px;
+}
+.dvd-btn {
+    width: 72px;
+    height: 28px;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.dvd-btn button{
+    width: 72px;
+    height: 28px;
+    /*border: 0px;*/
+    padding: 1px 6px;
+    text-align: center;
+}

@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 a{
-    text-decoration:none
+    text-decoration: none;
 }
 /*素馨花卉导航栏开始*/
 .nav {
@@ -304,8 +304,14 @@ a{
     line-height: 32px;
     box-sizing: border-box;
     padding-left: 25px;
+    cursor: pointer;
+}
+.item-a:hover{
+    opacity: 0.9;
+    transition: all linear;
 }
 .item-a i{
+    height:22px;
     font-size: 20px;
     color: #9C2115;
     /*margin-right: 10px;*/
@@ -331,6 +337,7 @@ a{
     top:222px;
     text-align: center;
     line-height: 40px;
+    cursor: pointer;
 }
 .index-left img{
     width:20px;
@@ -350,6 +357,7 @@ a{
     top:222px;
     text-align: center;
     line-height: 40px;
+    cursor: pointer;
 }
 .index-right img{
     width:20px;
@@ -419,6 +427,11 @@ a{
     font-size: 18px;
     color: #37474f;
     font-weight: 400;
+    text-decoration: blink;
+}
+.news-body a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
 }
 .news-body p {
     width: 375px;
@@ -537,6 +550,9 @@ a{
 .footer-bt a{
     color: #62a8ea;
     font-size: 14px;
+}
+.footer-bt a:hover{
+    text-decoration: underline;
 }
 .footer-bt img{
     vertical-align: middle;
